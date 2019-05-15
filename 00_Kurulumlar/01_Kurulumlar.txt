@@ -1,7 +1,9 @@
 SAFHA-1 PYTHON TEMEL, VERİ ANALİZİ VE MAKİNE ÖĞRENMESİ İLE İLGİLİ KURULUMLAR
 ===============================================================================
 
-1. Varsa Anaconda'yı kaldıralım. Son sürüm Anaconda'lar paket yüklerken ssl hatası veriyor.
+1. Anaconda kurulu ise ve pip ile paket yükleyebiliyorsak onunla devam edelim. Eğer ssl gibi bazı hatalar 
+	alıyor ve pip ile paket yüklememiz engelleniyorsa Anaconda'yı kaldıralım. Son sürüm Anaconda'lar paket 
+	yüklerken ssl hatası veriyor.
 	Ayrıca Anaconda aşırı ve gereksiz paket ve yazılım yüklüyor. İhtiyacımız olmayan bir çok şeyi yüklüyoruz.
 	Paket yüklemelerini daha rahat yapabileceğimiz sürüm olan Python 3.6.5 sürümünü kullanacağız.
 	
