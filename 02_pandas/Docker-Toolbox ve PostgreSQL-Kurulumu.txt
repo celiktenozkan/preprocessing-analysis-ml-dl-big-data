@@ -1,4 +1,7 @@
-﻿1. Windows 7 ve üzeri kullanıyor olmalısınız. İşletim sistemi 64 bit olmalıdır.
+﻿
+Docker Toolbox Kurulum videosu: https://www.youtube.com/watch?v=QqR10kxTPoM
+
+1. Windows 7 ve üzeri kullanıyor olmalısınız. İşletim sistemi 64 bit olmalıdır.
 
 2. Windows 10 Pro, Enterprise ve Education kullanmıyorsanız ve bu sürümleri kullandığınız halde Oracle Virtualbox kullanmaya devam etmek istiyorsanız
 DockerToolbox kurmanız gerekir.
