@@ -16,11 +16,20 @@ dosyasını indirin (217 MB)
 5. DockerToolbox'ı kurun.
 	Docker-compose hariç diğer seçenekleri kaldırın.
 	(Virtualbox kurulu değilse onu seçebilirsiniz)
+	Docker Quickstart Terminal Masaüstünde Mavi renkte bulunacaktır.
+	Onu Çift tıklayarak docker-machine oluşturalım
+	
 6. Terminali açın (Örneğin gitbash)
 
 7. Terminalde docker-meachine ls komutunu yazın
+	Herhangi bir running docker-machine yok ise 
+	aşağıdaki komutu çalıştırın.
+	
+8. Terminalde 
 
-8. Terminalde docker-machine create default komutunu çalıştırın
+docker-machine create default 
+
+komutunu çalıştırın
 
 Beklenen ekran çıktıları:
 	Running pre-create checks...
@@ -48,7 +57,8 @@ Beklenen ekran çıktıları:
 
 $ docker-machine env
 
-$ eval "$(docker-machine env default)"
+$ eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env)
+Not: Yukarıdaki komut sizin ekranınızda en alt satırda bulunur. Onu kopyalayıp yapıştırın.
 
 10. docker ps 
 komutu ile mevcut container'ları listeleyin (Yeni yüklediğimiz için sonuç boş olmalıdır)
@@ -143,3 +153,5 @@ $ docker cp Advertising.csv ceae3953f0a7:/Advertising.csv
  
  sonuç: 
 COPY 200
+
+10. Buradan sonra Jupyter Notebook ile devam edebilirsiniz.
